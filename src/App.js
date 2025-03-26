@@ -56,8 +56,7 @@ const App = () => {
               {/* Apps */}
               <Route path='/kanban' element={<Kanban />}/> 
               <Route path='/editor' element={<Editor />}/> 
-              <Route path='/calender' element={<Calendar />}/> 
-              <Route path='/color-picker' element={<ColorPicker />}/>
+              <Route path='/calendar' element={<Calendar />}/> 
 
               {/* Charts */}
               <Route path='/line' element={<Line />}/>          
