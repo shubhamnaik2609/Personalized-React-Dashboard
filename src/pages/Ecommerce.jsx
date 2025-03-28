@@ -99,16 +99,13 @@ const Ecommerce = () => {
                   </p>
                   <p className="text-gray-500 mt-1">Expense</p>
                 </div>
-                <div className='mt-5'>
-                  <SparkLine 
-                    currentColor={currentColor}
-                    id='line-sparkline'
-                    type='Line'
-                    height='80px'
-                    width='250px'
-                    data={SparklineAreaData}
-                    color={currentColor}
-                  />
+                <div className="mt-5">
+                  <SparkLine
+                    id="line-sparkLine" 
+                    type="Line" 
+                    height="80px" 
+                    width="250px" 
+                    data={SparklineAreaData} />
                 </div>
                 <div className='mt-10'>
                   <Button 
